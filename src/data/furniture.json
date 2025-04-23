@@ -2,42 +2,42 @@
     {
       "id": 1,
       "name": "Modern Sofa",
-      "image": "/images/sofa.jpg",
+      "image": "/sofa1.jpeg",
       "price": 49900,
       "description": "A sleek, comfortable modern sofa with plush cushions."
     },
     {
       "id": 2,
       "name": "Wooden Dining Table",
-      "image": "/images/dining-table.jpg",
+      "image": "/dtable.jpeg",
       "price": 79900,
       "description": "Solid oak dining table that seats six comfortably."
     },
     {
       "id": 3,
       "name": "Ergonomic Office Chair",
-      "image": "/images/office-chair.jpg",
+      "image": "/chair.jpeg",
       "price": 24900,
       "description": "Adjustable height and lumbar support for long workdays."
     },
     {
       "id": 4,
       "name": "Bookshelf",
-      "image": "/images/bookshelf.jpg",
+      "image": "/bookshelf.jpeg",
       "price": 199,
       "description": "Spacious bookshelf with five tiers and matte black finish."
     },
     {
       "id": 5,
       "name": "Queen Bed Frame",
-      "image": "/images/bed-frame.jpg",
+      "image": "/queenbed.jpeg",
       "price": 59900,
       "description": "Sturdy metal frame with built-in LED ambient lighting."
     },
     {
       "id": 6,
       "name": "Coffee Table",
-      "image": "/images/coffee-table.jpg",
+      "image": "/ctable.jpeg",
       "price": 149000,
       "description": "Round tempered glass top with matte black steel legs."
     }

@@ -35,21 +35,27 @@ const Home: React.FC = () => {
             {furnitureData.map((item) => (
               <div
                 key={item.id}
-                className="bg-gray-900 rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300"
+                className="bg-gray-900 rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300 flex flex-col"
               >
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold mb-2 text-white">
-                    {item.name}
-                  </h3>
-                  <p className="text-gray-400 mb-4">
-                    {item.description}
-                  </p>
-                  <div className="flex items-center justify-between">
+                {/* Fixed-height Image Container */}
+                <div className="w-full h-64 overflow-hidden">
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                {/* Content */}
+                <div className="p-6 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 className="text-2xl font-bold mb-2 text-white">
+                      {item.name}
+                    </h3>
+                    <p className="text-gray-400 mb-4">
+                      {item.description}
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-between mt-4">
                     <span className="text-xl font-semibold">
                       RS {item.price}
                     </span>
@@ -81,7 +87,7 @@ const Home: React.FC = () => {
               <img
                 src="/images/about-image.jpg"
                 alt="About FurnitureCo"
-                className="rounded-2xl shadow-lg"
+                className="rounded-2xl shadow-lg w-full object-cover"
               />
             </div>
           </div>
