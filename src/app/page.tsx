@@ -31,7 +31,7 @@ const Home: React.FC = () => {
                   </p>
                   <div className="flex items-center justify-between">
                     <span className="text-xl font-semibold text-white">
-                      ${item.price}
+                      RS {item.price}
                     </span>
                     <button className="px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-xl hover:from-indigo-600 hover:to-blue-500 transition-colors duration-300">
                       View
